@@ -27,7 +27,6 @@ public static class PaletteSwapper
                 //colorDiff = Mathf.Abs(pixels[c].grayscale - SelectPalette(0)[i].grayscale);
 
                 if (colorDiff <= 4 * ((1f / 100f) * (1f / 100f)) && sprite[c].a != 0)
-                //if (colorDiff <= ((1f / 100f)) && pixels[c].a != 0)
                 {
                     sprite[c] = newPalette[i];
                     i = 4;
