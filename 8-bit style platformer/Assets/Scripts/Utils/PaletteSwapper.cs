@@ -8,7 +8,8 @@ public static class PaletteSwapper
     {
         Texture2D response = new Texture2D(8, 8)
         {
-            filterMode = FilterMode.Point
+            filterMode = FilterMode.Point,
+            wrapMode = TextureWrapMode.Clamp
         };
 
         float colorDiff;
